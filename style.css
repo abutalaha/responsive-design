@@ -102,9 +102,10 @@ button{
 }
 @media only screen and (min-width:1024px){
     .container1{
-        width: 950px;
+        width: 98%;
         padding-top: 4rem;
         padding-left: 4rem;
+        margin-right: 3rem;
     }
     .head{
         font-size: 2rem;
@@ -118,7 +119,7 @@ button{
         font-size: 1.2rem;
     }
     .container2{
-        width:475px;
+        width:49%;
         padding-left: 4rem;
         border-bottom-left-radius: 10px;
     }
@@ -139,12 +140,13 @@ button{
         font-size: 1.2rem;
     }
     .container3{
-        width: 475px;
+        width: 49%;
         padding-left: 4rem;
         border-bottom-left-radius: 0px;
         margin-left: 0px;
         padding-top: 15px;
         margin-bottom: 0px;
+        /* margin-right: 2rem; */
     }
     .y{
         font-size: 1.4rem; 
@@ -155,5 +157,6 @@ button{
     }
     .double{
         display: flex;
+        margin-bottom: 4rem;
     }
 }
